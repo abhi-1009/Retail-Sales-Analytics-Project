@@ -209,7 +209,7 @@ rfm = pd.DataFrame({'recency': recency, 'frequency': frequency, 'monetary': mone
 *Bar chart ranking top 10 customers by total transaction value*
 
 ### 4. Transaction Amount vs Customer Response
-![Response vs Amount](screenshots/Transaction_Amount_vs_Customer_Response.png)
+![Response vs Amount](screenshots/Transaction_Amount_vs_Customer_Response.png) screenshots
 *Boxplot comparing transaction amounts between responded (1) and non-responded (0) customers*
 
 ### 5. RFM — Customer Frequency vs Monetary Value
