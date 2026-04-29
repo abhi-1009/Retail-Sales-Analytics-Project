@@ -18,7 +18,6 @@ A comprehensive retail analytics project that combines **EDA, time series analys
 - [RFM Customer Segmentation](#rfm-customer-segmentation)
 - [Visualisations Generated](#visualisations-generated)
 - [Key Insights](#key-insights)
-- [screenshots](#screenshots)
 - [Installation and Setup](#installation-and-setup)
 - [Usage](#usage)
 - [Business Recommendations](#business-recommendations)
@@ -194,35 +193,6 @@ rfm = pd.DataFrame({'recency': recency, 'frequency': frequency, 'monetary': mone
 - **Top 10 customers by CLV** generate significantly more revenue than the median customer
 - **Discount / response interaction** suggests targeted campaigns can shift customers from P2 to P1 tier
 - **Day-of-week analysis** reveals which days drive peak sales — useful for staffing and promotions
-
-##  screenshots
-### 1. Monthly Sales Trend
-![Monthly Sales Trend](screenshots/Monthly_Sales_Trend.png)
-*Line chart of total sales per month across the full date range*
-
-### 2. Outlier Detection — Transaction Amount
-![Outlier Boxplot](screenshots/Outlier_Detection_Transaction_Amount.png)
-*Boxplot showing Z-score outlier detection on transaction amounts (threshold = 3)*
-
-### 3. Top 10 Customers by Sales
-![Top Customers](screenshots/Top_10_Customers_by_Sales.png)
-*Bar chart ranking top 10 customers by total transaction value*
-
-### 4. Transaction Amount vs Customer Response
-![Response vs Amount](screenshots/Transaction_Amount_vs_Customer_Response.png) screenshots
-*Boxplot comparing transaction amounts between responded (1) and non-responded (0) customers*
-
-### 5. RFM — Customer Frequency vs Monetary Value
-![RFM Scatter](screenshots/Customer_Frequency_vs_Monetary_Value.png)
-*Scatter plot of RFM frequency vs monetary — clusters visible for P0/P1/P2 segments*
-
-### 6. Customer Recency vs Frequency
-![Recency vs Frequency](screenshots/Customer_Recency_vs_Frequency.png)
-*Scatter plot of RFM recency vs frequency — shows active vs churned customer patterns*
-
-### 7. Correlation Heatmap
-![Correlation Heatmap](screenshots/Correlation_Heatmap.png)
-*Annotated heatmap showing correlation between tran_amount and response*
 
 ## Installation and Setup
 ### Step 1 — Clone the Repository
