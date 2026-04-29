@@ -195,8 +195,7 @@ rfm = pd.DataFrame({'recency': recency, 'frequency': frequency, 'monetary': mone
 - **Discount / response interaction** suggests targeted campaigns can shift customers from P2 to P1 tier
 - **Day-of-week analysis** reveals which days drive peak sales — useful for staffing and promotions
 
-## Screenshots
-
+##  Screenshots
 ### 1. Monthly Sales Trend
 ![Monthly Sales Trend](screenshots/Monthly_Sales_Trend.png)
 *Line chart of total sales per month across the full date range*
@@ -206,23 +205,23 @@ rfm = pd.DataFrame({'recency': recency, 'frequency': frequency, 'monetary': mone
 *Boxplot showing Z-score outlier detection on transaction amounts (threshold = 3)*
 
 ### 3. Top 10 Customers by Sales
-![Top Customers](screenshots/Top 10 Customers by Sales.png)
+![Top Customers](screenshots/Top_10_Customers_by_Sales.png)
 *Bar chart ranking top 10 customers by total transaction value*
 
 ### 4. Transaction Amount vs Customer Response
-![Response vs Amount](screenshots/Transaction Amount vs Customer Response.png)
+![Response vs Amount](screenshots/Transaction_Amount_vs_Customer_Response.png)
 *Boxplot comparing transaction amounts between responded (1) and non-responded (0) customers*
 
 ### 5. RFM — Customer Frequency vs Monetary Value
-![RFM Scatter](screenshots/Customer Frequency vs Monetary Value.png)
+![RFM Scatter](screenshots/Customer_Frequency_vs_Monetary_Value.png)
 *Scatter plot of RFM frequency vs monetary — clusters visible for P0/P1/P2 segments*
 
 ### 6. Customer Recency vs Frequency
-![Recency vs Frequency](screenshots/Customer Recency vs Frequency.png)
+![Recency vs Frequency](screenshots/Customer_Recency_vs_Frequency.png)
 *Scatter plot of RFM recency vs frequency — shows active vs churned customer patterns*
 
 ### 7. Correlation Heatmap
-![Correlation Heatmap](screenshots/Correlation Heatmap.png)
+![Correlation Heatmap](screenshots/Correlation_Heatmap.png)
 *Annotated heatmap showing correlation between tran_amount and response*
 
 ## Installation and Setup
