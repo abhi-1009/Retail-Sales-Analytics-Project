@@ -18,7 +18,7 @@ A comprehensive retail analytics project that combines **EDA, time series analys
 - [RFM Customer Segmentation](#rfm-customer-segmentation)
 - [Visualisations Generated](#visualisations-generated)
 - [Key Insights](#key-insights)
-- [Screenshots](#screenshots)
+- [screenshots](#screenshots)
 - [Installation and Setup](#installation-and-setup)
 - [Usage](#usage)
 - [Business Recommendations](#business-recommendations)
@@ -195,7 +195,7 @@ rfm = pd.DataFrame({'recency': recency, 'frequency': frequency, 'monetary': mone
 - **Discount / response interaction** suggests targeted campaigns can shift customers from P2 to P1 tier
 - **Day-of-week analysis** reveals which days drive peak sales — useful for staffing and promotions
 
-##  Screenshots
+##  screenshots
 ### 1. Monthly Sales Trend
 ![Monthly Sales Trend](screenshots/Monthly_Sales_Trend.png)
 *Line chart of total sales per month across the full date range*
