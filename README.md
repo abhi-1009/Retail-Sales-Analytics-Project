@@ -202,7 +202,7 @@ rfm = pd.DataFrame({'recency': recency, 'frequency': frequency, 'monetary': mone
 *Line chart of total sales per month across the full date range*
 
 ### 2. Outlier Detection — Transaction Amount
-![Outlier Boxplot](screenshots/C:\Users\Hp\OneDrive\Desktop\python\RETAILCHAINANALYSIS\Outlier Detection - Transaction Amount.png)
+![Outlier Boxplot](screenshots/)
 *Boxplot showing Z-score outlier detection on transaction amounts (threshold = 3)*
 
 ### 3. Top 10 Customers by Sales
